@@ -10,6 +10,8 @@ DB_DATABASE=banco
 DB_USERNAME=userBanco
 DB_PASSWORD=senhaBanco
 
+
+
 Alterar userBanco e senhaBanco
 
 #Utilização -- Criação de tabelas no banco:
@@ -18,4 +20,7 @@ Alterar userBanco e senhaBanco
 
 #agora basta criar o usuário e utilizar
 
+
+#Usuarios cadastrados na tela de register são ADM e possuem total acesso
+-- Usuario(aluno) cadastrado pelo Usuario(ADM) dentro do sistema possui acesso de aluno
 

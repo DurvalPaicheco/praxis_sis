@@ -36,6 +36,12 @@ class User extends Authenticatable
     public function setUser_nome($user_nome){
         $this->user_nome = $user_nome;
     }
+    public function getUser_password(){
+        return $this->user_pasword;
+    }
+    public function setUser_pasword($user_pasword){
+        $this->user_pasword = $user_pasword;
+    }
     public function getUser_pass(){
         return $this->user_pass;
     }
